@@ -16,9 +16,9 @@
                     </div>
                 </div>
                 <p class="text-center text-md text-gray-900">
-                    Already have an Account?
-                    <router-link to="/login" class="text-blue-500 no-underline hover:underline">
-                        Login
+                    Don't have an Account?
+                    <router-link to="/register" class="text-blue-500 no-underline hover:underline">
+                        Register
                     </router-link>
                 </p>
             </div>
