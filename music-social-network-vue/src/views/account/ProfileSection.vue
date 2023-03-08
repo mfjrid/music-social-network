@@ -14,7 +14,7 @@
                     </span>
                 </div>
                 <div class="w-1/2 mt-2">
-                    <RouterLinkButton btnText="Edit Profile" color="green" url="account/edit-profile" />
+                    <RouterLinkButton btnText="Edit Profile" color="green" url="/account/edit-profile" />
                 </div>
             </div>
             <ProfileInfoSection />
@@ -23,6 +23,7 @@
     </div>
     <SongsSection />
     <YoutubeVideosSection />
+    <PostsSection />
 </template>
 
 <script setup>
@@ -30,5 +31,6 @@
     import ProfileAboutSection from '../../components/partials/profile/ProfileAboutSection.vue'
     import SongsSection from '../../components/partials/profile/SongsSection.vue'
     import YoutubeVideosSection from '../../components/partials/profile/YoutubeVideosSection.vue'
+    import PostsSection from '../../components/partials/profile/PostsSection.vue'
     import RouterLinkButton from '../../components/global/RouterLinkButton.vue'
 </script>
