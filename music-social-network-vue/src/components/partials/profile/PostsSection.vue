@@ -13,28 +13,34 @@
         <div class="my-1 px-1 w-full md:w-1/2 lg:w-1/2">
 
 
-            <div
-                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="border border-gray-200 rounded-lg">
                 <a href="#">
-                    <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+                    <img class="rounded-t-lg" src="https://via.placeholder.com/500" alt="" />
                 </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                            technology acquisitions 2021</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </a>
+                <div class="p-2 md:p-4 ">
+                    <div class="text-lg">
+                        <router-link to="" class="underline text-blue-500 hover:text-blue-600 ">
+                            Test Title
+                        </router-link>
+                    </div>
+                    <p class="py-2">
+                        Location: Test loc
+                    </p>
+                    <p class="text-gray-darker text-md">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores deleniti asperiores.
+                        Quibusdam, corporis explicabo. Voluptates, aliquid explicabo? Tenetur blanditiis expedita non
+                        sit molestias sint mollitia, at ea illo architecto.
+                    </p>
+                    <div class="mt-2 flex items-center justify-end">
+                        <router-link to=""
+                            class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-bold py-1 px-2 rounded-full">
+                            Edit Post
+                        </router-link>
+                        <button to=""
+                            class="bg-red-500 hover:bg-red-700 text-white text-sm font-bold py-1 px-2 rounded-full">
+                            Delete Post
+                        </button>
+                    </div>
                 </div>
             </div>
 
