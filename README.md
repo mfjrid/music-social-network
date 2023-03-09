@@ -5,3 +5,6 @@ Stack:
 - Laravel
 - Vue
 - MySQL
+
+Plugins:
+- APlayer (untuk mp3 player)
